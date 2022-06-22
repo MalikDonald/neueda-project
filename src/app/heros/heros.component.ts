@@ -1,14 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from '../hero';
 
 @Component({
   selector: 'app-heros',
-  template: `<h2>{{ hero }}</h2>`,
-  //templateUrl: './heros.component.html',
+  //template: `<h2>{{ hero }}</h2>`,
+  templateUrl: './heros.component.html',
   styleUrls: ['./heros.component.css']
 })
 export class HerosComponent implements OnInit {
 
-  hero = 'Windstorm';
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
 
   constructor() { }
 
