@@ -1,4 +1,25 @@
-<div>
-    <label for="name">Hero name: </label>
-    <input id="name" [(ngModel)]="hero.name" placeholder="name">
-  </div>
+<h2>Neueda Team</h2>
+<ul class="team">
+    <li *ngFor="let hero of team">
+        <button type="button" (click)="onSelect(hero)">
+            <span class="seoid">{{ hero.id }}</span>
+        </button>
+    </li>
+</ul>
+
+<div *ngIf="selectedHero">
+    <h2>{{ selectedHero.name }} Details</h2>
+    <div>SOEID: {{ selectedHero.id }}</div>
+    <div>
+        <label for="hero-name">Name: </label>
+        <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="Name">
+    </div>
+    <div>
+        <label for="hero-email">Email: </label>
+        <input id="hero-email" [(ngModel)]="selectedHero.email" placeholder="Email">
+    </div>
+    <div>
+        <label for="hero-team">Development team: </label>
+        <input id="hero-team" [(ngModel)]="selectedHero.devTeam" placeholder="Team Name">
+    </div>
+</div>
