@@ -5,14 +5,13 @@ def dockerImageTag = "${projectName}:${version}"
 pipeline {
   agent any
 
-  tools {nodejs "nodejs"}
 
   stages {
-    stage("Build") {
+    /*stage("Build") {
       steps {
         sh "npm run build"
       }
-    }
+    }*/
 
     stage('Build Container') {
       steps {
