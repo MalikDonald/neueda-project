@@ -1,0 +1,15 @@
+#details {
+    display: block;
+    clear: both;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    border-radius: 0px 8px 8px 8px;
+}
+
+label, .label {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 0px;
+}

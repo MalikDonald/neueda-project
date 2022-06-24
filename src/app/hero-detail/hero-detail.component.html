@@ -1,0 +1,17 @@
+<div id="details" *ngIf="hero">
+    <h2>{{ hero.fname }} {{ hero.lname }} Details</h2>
+    <div><span class="label">SOEID: </span>{{ hero.id }}</div>
+    <div><span class="label">Email: </span><a href="mailto:{{ hero.email }}">{{ hero.email }}</a></div>
+    <div>
+        <label for="hero-fname">First Name: </label>
+        <input id="hero-fname" [(ngModel)]="hero.fname" placeholder="Name">
+    </div>
+    <div>
+        <label for="hero-lname">Last Name: </label>
+        <input id="hero-lname" [(ngModel)]="hero.lname" placeholder="Name">
+    </div>
+    <div>
+        <label for="hero-team">Development team: </label>
+        <input id="hero-team" [(ngModel)]="hero.devTeam" placeholder="Team Name">
+    </div>
+</div>

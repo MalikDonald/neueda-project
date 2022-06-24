@@ -2,3 +2,21 @@
     background-color: #333;
     color: #fff;
 }
+
+div {
+    display: block;
+    /*clear: both;*/
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 6px 6px 0px 0px;
+    width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: left;
+}
