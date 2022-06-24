@@ -5,6 +5,6 @@ COPY . .
 RUN npm install
 RUN npm run build --prod
 #stage 2
-FROM nginx:latest
+FROM nginxinc/nginx-unprivileged
 COPY --from=node /app/dist/neueda-angular-project /usr/share/nginx/html
 
