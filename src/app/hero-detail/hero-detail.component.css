@@ -2,8 +2,12 @@
     display: block;
     clear: both;
     padding: 2rem;
-    background-color: #f1f1f1;
+    background-color: #F6F6F6;
     border-radius: 0px 8px 8px 8px;
+}
+
+h2 {
+    color: #0B2F6E;
 }
 
 label, .label {

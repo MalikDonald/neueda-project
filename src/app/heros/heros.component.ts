@@ -4,7 +4,6 @@ import { TEAM } from "../teamMembers";
 
 @Component({
   selector: 'app-heros',
-  //template: `<h2>{{ hero }}</h2>`,
   templateUrl: './heros.component.html',
   styleUrls: ['./heros.component.css']
 })
