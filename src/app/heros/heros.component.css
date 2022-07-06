@@ -19,3 +19,11 @@ li {
     display: inline;
     float: left;
 }
+
+h2, h3 {
+    color: #EB3223;
+    text-shadow: 2px 2px rgba(94, 9, 9, 0.747);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}

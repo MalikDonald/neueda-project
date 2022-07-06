@@ -6,16 +6,17 @@ h1 {
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
     font-size: 250%;
+    text-align: center;
+    text-shadow: 2px 2px #ffff;
+
 }
 
-h2, h3 {
-    color: #EB3223;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 700;
-}
 
 body {
     margin: 2em;
+    background-image: linear-gradient(#3f69b1,#0B2F6E);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 body, input[type="text"], button {

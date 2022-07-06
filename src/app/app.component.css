@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Roboto&display=swap');
+
+h1 {
+    color: #0B2F6E;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 250%;
+    text-align: center;
+    text-shadow: 2px 2px #ffff;
+
+}
+
+body {
+    margin: 2em;
+    background-image: linear-gradient(#3f69b1,#0B2F6E);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+body, input[type="text"], button {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background-color: #2C6DA9;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+button:hover {
+    background-color: #1B4E7D;
+    /*color: white;*/
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
